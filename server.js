@@ -52,7 +52,7 @@ const convertToBedrockFormat = (claudePayload, endpoint) => {
     // extra elements in payload are not allowed by Bedrock
     delete bedrockPayload['model'];
     delete bedrockPayload['stream'];
-    return
+    return bedrockPayload
 
     // the other approach is to manually construc the bedrock payload
 /*
