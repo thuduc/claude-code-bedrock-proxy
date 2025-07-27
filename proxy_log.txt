@@ -1,0 +1,20 @@
+2025-07-26T23:54:05.657Z [INFO]: ============================================================
+2025-07-26T23:54:05.658Z [INFO]: AWS Bedrock Claude API Handler (Bearer Token Auth)
+2025-07-26T23:54:05.659Z [INFO]: ============================================================
+2025-07-26T23:54:05.659Z [INFO]: Server URL: http://localhost:3000
+2025-07-26T23:54:05.659Z [INFO]: AWS Region: us-east-1
+2025-07-26T23:54:05.659Z [INFO]: Bedrock Endpoint: https://bedrock-runtime.us-east-1.amazonaws.com
+2025-07-26T23:54:05.659Z [INFO]: Default Model: us.anthropic.claude-sonnet-4-20250514-v1:0
+2025-07-26T23:54:05.659Z [INFO]: Auth Method: Bearer Token
+2025-07-26T23:54:05.659Z [INFO]: 
+Configured Endpoints:
+2025-07-26T23:54:05.660Z [INFO]:   POST http://localhost:3000/v1/messages    [Claude Messages API → Bedrock]
+2025-07-26T23:54:05.660Z [INFO]:   POST http://localhost:3000/v1/complete    [Claude Completions API → Bedrock]
+2025-07-26T23:54:05.660Z [INFO]:   GET  http://localhost:3000/v1/models      [List Available Models]
+2025-07-26T23:54:05.660Z [INFO]: 
+Utility Endpoints:
+2025-07-26T23:54:05.660Z [INFO]:   GET  http://localhost:3000/health
+2025-07-26T23:54:05.660Z [INFO]:   GET  http://localhost:3000/info
+2025-07-26T23:54:05.660Z [INFO]: 
+Payload modifications can be customized in bedrock-payload-modifiers.js
+2025-07-26T23:54:05.660Z [INFO]: ============================================================
