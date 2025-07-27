@@ -26,7 +26,9 @@ LOG_LEVEL=info  # Optional, defaults to info
 ```
 
 ### Starting Claude Code
-ANTHROPIC_BASE_URL=http://localhost:3000/ claude --dangerously-skip-permissions
+ANTHROPIC_AUTH_TOKEN=dummy-token ANTHROPIC_BASE_URL=http://localhost:3000/ claude --dangerously-skip-permissions
+
+Note that setting ANTHROPIC_AUTH_TOKEN skips the initial authentication page (to either use a Claude subscription or Claude.ai API key). Setting ANTHROPIC_BASE_URL tells Claude Code to use http://localhost:3000 instead of https://api.anthropic.com as the base url for the LLM API endpoint.
 
 ## Architecture
 
